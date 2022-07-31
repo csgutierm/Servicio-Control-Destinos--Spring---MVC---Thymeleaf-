@@ -29,7 +29,7 @@ Visual
 
 Base de datos
 
-*Oracle jdbc
+* Oracle jdbc
 
 Visual-Controlador
 
