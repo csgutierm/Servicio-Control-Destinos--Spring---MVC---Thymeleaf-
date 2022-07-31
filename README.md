@@ -76,6 +76,8 @@ Navegador web actualizado
 | Mac     |Supported| Supported|
 | Windows |Supported| Supported|
  
+Base de datos Oracle o MySQL.
+Revisar archivo application.properties (src/main/resources) para configurar el acceso a la base de datos.
 
 ##  Status
 
