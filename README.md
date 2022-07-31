@@ -94,6 +94,7 @@ Completado pero sin revisiones
 ##  Contacto
 
 e-mail: csgutier@gmail.com
+linkedin: Click [aquí](https://www.linkedin.com/in/claudio-guti%C3%A9rrez-a20739206/)
 
 ## Detalle de objetivos
 1. Usar Spring Initializr para generar proyecto con las respectivas dependencias.
