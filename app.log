@@ -1,0 +1,204 @@
+2022-07-31 14:56:22.582  INFO 24172 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.2 on DESKTOP-4VOT140 with PID 24172 (C:\Users\csgut\eclipse-workspaceSpring\M6.4-Desafio-ServicioControlDestinos(Clase+Entrega)\target\classes started by csgut in C:\Users\csgut\eclipse-workspaceSpring\M6.4-Desafio-ServicioControlDestinos(Clase+Entrega))
+2022-07-31 14:56:22.587  INFO 24172 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-31 14:56:22.622  INFO 24172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-31 14:56:22.622  INFO 24172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-31 14:56:23.072  INFO 24172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-31 14:56:23.110  INFO 24172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2022-07-31 14:56:23.505  INFO 24172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2022-07-31 14:56:23.512  INFO 24172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-31 14:56:23.512  INFO 24172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-31 14:56:23.564  INFO 24172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-31 14:56:23.564  INFO 24172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 942 ms
+2022-07-31 14:56:23.714  INFO 24172 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-31 14:56:23.751  INFO 24172 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-31 14:56:23.866  INFO 24172 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-31 14:56:23.937  INFO 24172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-31 14:56:24.100  INFO 24172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-31 14:56:24.111  INFO 24172 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle8iDialect
+2022-07-31 14:56:24.725  INFO 24172 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-31 14:56:24.732  INFO 24172 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-31 14:56:24.988  WARN 24172 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-31 14:56:25.074 DEBUG 24172 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-31 14:56:25.139 DEBUG 24172 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2022-07-31 14:56:25.156 DEBUG 24172 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-31 14:56:25.162 DEBUG 24172 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-31 14:56:25.261  INFO 24172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-31 14:56:25.288  INFO 24172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2022-07-31 14:56:25.295  INFO 24172 --- [restartedMain] com.edutecno.Application                 : Started Application in 2.98 seconds (JVM running for 3.548)
+2022-07-31 14:56:28.966  INFO 24172 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-31 14:56:28.966  INFO 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-31 14:56:28.967 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-31 14:56:28.967 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-31 14:56:28.967 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-31 14:56:28.968 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1040bc6
+2022-07-31 14:56:28.968 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7eee3343
+2022-07-31 14:56:28.969 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-31 14:56:28.969  INFO 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-07-31 14:56:28.981 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-31 14:56:28.986 DEBUG 24172 --- [http-nio-8086-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.PasajeroController#pasajeros()
+2022-07-31 14:56:29.013  INFO 24172 --- [http-nio-8086-exec-1] com.edutecno.service.PasajeroServiceImp  : Ejecutando PasajeroServiceImp findAll()
+2022-07-31 14:56:29.126 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:56:29.357 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:56:29.503 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-07-31 14:56:29.506 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-07-31 14:56:29.509 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-07-31 14:56:29.509 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-31 14:56:29.513 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-31 14:56:29.514 DEBUG 24172 --- [http-nio-8086-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-07-31 14:56:29.531 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/avif, image/webp, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-07-31 14:56:29.532 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jul 31 14:56:29 CLT 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+2022-07-31 14:56:29.563 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-07-31 14:56:43.119 DEBUG 24172 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/pasajeros", parameters={}
+2022-07-31 14:56:43.119 DEBUG 24172 --- [http-nio-8086-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.PasajeroController#pasajeros()
+2022-07-31 14:56:43.120  INFO 24172 --- [http-nio-8086-exec-3] com.edutecno.service.PasajeroServiceImp  : Ejecutando PasajeroServiceImp findAll()
+2022-07-31 14:56:43.124 DEBUG 24172 --- [http-nio-8086-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:56:43.137 DEBUG 24172 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:56:43.840 DEBUG 24172 --- [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/destinos", parameters={}
+2022-07-31 14:56:43.841 DEBUG 24172 --- [http-nio-8086-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.DestinoController#destinos()
+2022-07-31 14:56:43.846  INFO 24172 --- [http-nio-8086-exec-4] com.edutecno.service.DestinoServiceImp   : Ejecutando DestinoServiceImp findAll()
+2022-07-31 14:56:43.858 DEBUG 24172 --- [http-nio-8086-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:56:43.871 DEBUG 24172 --- [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:56:46.233 DEBUG 24172 --- [http-nio-8086-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/pasajeros", parameters={}
+2022-07-31 14:56:46.234 DEBUG 24172 --- [http-nio-8086-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.PasajeroController#pasajeros()
+2022-07-31 14:56:46.236  INFO 24172 --- [http-nio-8086-exec-5] com.edutecno.service.PasajeroServiceImp  : Ejecutando PasajeroServiceImp findAll()
+2022-07-31 14:56:46.240 DEBUG 24172 --- [http-nio-8086-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:56:46.252 DEBUG 24172 --- [http-nio-8086-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:56:46.299 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-07-31 14:56:46.300 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-07-31 14:56:46.303 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-07-31 14:56:46.304 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-31 14:56:46.304 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-31 14:56:46.305 DEBUG 24172 --- [http-nio-8086-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-07-31 14:56:46.305 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/avif, image/webp, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-07-31 14:56:46.306 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jul 31 14:56:46 CLT 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+2022-07-31 14:56:46.307 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-07-31 14:56:47.369 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/destinos", parameters={}
+2022-07-31 14:56:47.370 DEBUG 24172 --- [http-nio-8086-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.DestinoController#destinos()
+2022-07-31 14:56:47.372  INFO 24172 --- [http-nio-8086-exec-7] com.edutecno.service.DestinoServiceImp   : Ejecutando DestinoServiceImp findAll()
+2022-07-31 14:56:47.375 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:56:47.379 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:56:47.933 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/pasajeros/crear", parameters={}
+2022-07-31 14:56:47.934 DEBUG 24172 --- [http-nio-8086-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.PasajeroController#crear()
+2022-07-31 14:56:47.936  INFO 24172 --- [http-nio-8086-exec-8] com.edutecno.service.DestinoServiceImp   : Ejecutando DestinoServiceImp findAll()
+2022-07-31 14:56:47.944 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:56:47.955 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:56:49.273 DEBUG 24172 --- [http-nio-8086-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/destinos/crear", parameters={}
+2022-07-31 14:56:49.274 DEBUG 24172 --- [http-nio-8086-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.DestinoController#crear()
+2022-07-31 14:56:49.275  INFO 24172 --- [http-nio-8086-exec-9] com.edutecno.service.PasajeroServiceImp  : Ejecutando PasajeroServiceImp findAll()
+2022-07-31 14:56:49.278 DEBUG 24172 --- [http-nio-8086-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:56:49.299 DEBUG 24172 --- [http-nio-8086-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:56:54.256 DEBUG 24172 --- [http-nio-8086-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/pasajeros/crear", parameters={}
+2022-07-31 14:56:54.257 DEBUG 24172 --- [http-nio-8086-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.PasajeroController#crear()
+2022-07-31 14:56:54.258  INFO 24172 --- [http-nio-8086-exec-10] com.edutecno.service.DestinoServiceImp   : Ejecutando DestinoServiceImp findAll()
+2022-07-31 14:56:54.262 DEBUG 24172 --- [http-nio-8086-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:56:54.265 DEBUG 24172 --- [http-nio-8086-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:56:56.643 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/destinos/crear", parameters={}
+2022-07-31 14:56:56.644 DEBUG 24172 --- [http-nio-8086-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.DestinoController#crear()
+2022-07-31 14:56:56.645  INFO 24172 --- [http-nio-8086-exec-1] com.edutecno.service.PasajeroServiceImp  : Ejecutando PasajeroServiceImp findAll()
+2022-07-31 14:56:56.649 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:56:56.652 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:56:56.706 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-07-31 14:56:56.706 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-07-31 14:56:56.708 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-07-31 14:56:56.709 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-31 14:56:56.709 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-31 14:56:56.710 DEBUG 24172 --- [http-nio-8086-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-07-31 14:56:56.711 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/avif, image/webp, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-07-31 14:56:56.711 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jul 31 14:56:56 CLT 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+2022-07-31 14:56:56.712 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-07-31 14:56:57.200 DEBUG 24172 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/pasajeros/crear", parameters={}
+2022-07-31 14:56:57.200 DEBUG 24172 --- [http-nio-8086-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.PasajeroController#crear()
+2022-07-31 14:56:57.201  INFO 24172 --- [http-nio-8086-exec-3] com.edutecno.service.DestinoServiceImp   : Ejecutando DestinoServiceImp findAll()
+2022-07-31 14:56:57.205 DEBUG 24172 --- [http-nio-8086-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:56:57.207 DEBUG 24172 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:56:57.908 DEBUG 24172 --- [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/destinos", parameters={}
+2022-07-31 14:56:57.908 DEBUG 24172 --- [http-nio-8086-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.DestinoController#destinos()
+2022-07-31 14:56:57.909  INFO 24172 --- [http-nio-8086-exec-4] com.edutecno.service.DestinoServiceImp   : Ejecutando DestinoServiceImp findAll()
+2022-07-31 14:56:57.914 DEBUG 24172 --- [http-nio-8086-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:56:57.919 DEBUG 24172 --- [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:57:00.148 DEBUG 24172 --- [http-nio-8086-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/pasajeros", parameters={}
+2022-07-31 14:57:00.149 DEBUG 24172 --- [http-nio-8086-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.PasajeroController#pasajeros()
+2022-07-31 14:57:00.150  INFO 24172 --- [http-nio-8086-exec-5] com.edutecno.service.PasajeroServiceImp  : Ejecutando PasajeroServiceImp findAll()
+2022-07-31 14:57:00.152 DEBUG 24172 --- [http-nio-8086-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:57:00.160 DEBUG 24172 --- [http-nio-8086-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:57:02.021 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-31 14:57:02.022 DEBUG 24172 --- [http-nio-8086-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.PasajeroController#pasajeros()
+2022-07-31 14:57:02.023  INFO 24172 --- [http-nio-8086-exec-6] com.edutecno.service.PasajeroServiceImp  : Ejecutando PasajeroServiceImp findAll()
+2022-07-31 14:57:02.026 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:57:02.035 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:57:02.083 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-07-31 14:57:02.084 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-07-31 14:57:02.085 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-07-31 14:57:02.085 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-31 14:57:02.085 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-31 14:57:02.086 DEBUG 24172 --- [http-nio-8086-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-07-31 14:57:02.086 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/avif, image/webp, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-07-31 14:57:02.087 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jul 31 14:57:02 CLT 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+2022-07-31 14:57:02.088 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-07-31 14:57:02.584 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/pasajeros", parameters={}
+2022-07-31 14:57:02.585 DEBUG 24172 --- [http-nio-8086-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.PasajeroController#pasajeros()
+2022-07-31 14:57:02.586  INFO 24172 --- [http-nio-8086-exec-8] com.edutecno.service.PasajeroServiceImp  : Ejecutando PasajeroServiceImp findAll()
+2022-07-31 14:57:02.589 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:57:02.597 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:57:03.734 DEBUG 24172 --- [http-nio-8086-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/destinos", parameters={}
+2022-07-31 14:57:03.735 DEBUG 24172 --- [http-nio-8086-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.DestinoController#destinos()
+2022-07-31 14:57:03.736  INFO 24172 --- [http-nio-8086-exec-9] com.edutecno.service.DestinoServiceImp   : Ejecutando DestinoServiceImp findAll()
+2022-07-31 14:57:03.739 DEBUG 24172 --- [http-nio-8086-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:57:03.742 DEBUG 24172 --- [http-nio-8086-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:57:09.776 DEBUG 24172 --- [http-nio-8086-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/pasajeros", parameters={}
+2022-07-31 14:57:09.776 DEBUG 24172 --- [http-nio-8086-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.PasajeroController#pasajeros()
+2022-07-31 14:57:09.778  INFO 24172 --- [http-nio-8086-exec-10] com.edutecno.service.PasajeroServiceImp  : Ejecutando PasajeroServiceImp findAll()
+2022-07-31 14:57:09.783 DEBUG 24172 --- [http-nio-8086-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:57:09.794 DEBUG 24172 --- [http-nio-8086-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:57:11.949 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/destinos", parameters={}
+2022-07-31 14:57:11.949 DEBUG 24172 --- [http-nio-8086-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.DestinoController#destinos()
+2022-07-31 14:57:11.951  INFO 24172 --- [http-nio-8086-exec-1] com.edutecno.service.DestinoServiceImp   : Ejecutando DestinoServiceImp findAll()
+2022-07-31 14:57:11.954 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:57:11.957 DEBUG 24172 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:57:12.015 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-07-31 14:57:12.016 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-07-31 14:57:12.018 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-07-31 14:57:12.018 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-31 14:57:12.019 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-31 14:57:12.019 DEBUG 24172 --- [http-nio-8086-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-07-31 14:57:12.020 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/avif, image/webp, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-07-31 14:57:12.020 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jul 31 14:57:12 CLT 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+2022-07-31 14:57:12.021 DEBUG 24172 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-07-31 14:57:12.876 DEBUG 24172 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/pasajeros/crear", parameters={}
+2022-07-31 14:57:12.877 DEBUG 24172 --- [http-nio-8086-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.PasajeroController#crear()
+2022-07-31 14:57:12.878  INFO 24172 --- [http-nio-8086-exec-3] com.edutecno.service.DestinoServiceImp   : Ejecutando DestinoServiceImp findAll()
+2022-07-31 14:57:12.881 DEBUG 24172 --- [http-nio-8086-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:57:12.884 DEBUG 24172 --- [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:57:13.933 DEBUG 24172 --- [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/destinos/crear", parameters={}
+2022-07-31 14:57:13.934 DEBUG 24172 --- [http-nio-8086-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.DestinoController#crear()
+2022-07-31 14:57:13.936  INFO 24172 --- [http-nio-8086-exec-4] com.edutecno.service.PasajeroServiceImp  : Ejecutando PasajeroServiceImp findAll()
+2022-07-31 14:57:13.937 DEBUG 24172 --- [http-nio-8086-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:57:13.941 DEBUG 24172 --- [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:57:17.959 DEBUG 24172 --- [http-nio-8086-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/destinos", parameters={}
+2022-07-31 14:57:17.959 DEBUG 24172 --- [http-nio-8086-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.DestinoController#destinos()
+2022-07-31 14:57:17.960  INFO 24172 --- [http-nio-8086-exec-5] com.edutecno.service.DestinoServiceImp   : Ejecutando DestinoServiceImp findAll()
+2022-07-31 14:57:17.963 DEBUG 24172 --- [http-nio-8086-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:57:17.965 DEBUG 24172 --- [http-nio-8086-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:57:18.017 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-07-31 14:57:18.018 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-07-31 14:57:18.020 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-07-31 14:57:18.021 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-31 14:57:18.021 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-31 14:57:18.022 DEBUG 24172 --- [http-nio-8086-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-07-31 14:57:18.023 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/avif, image/webp, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-07-31 14:57:18.023 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jul 31 14:57:18 CLT 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+2022-07-31 14:57:18.024 DEBUG 24172 --- [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-07-31 14:57:22.260 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-31 14:57:22.260 DEBUG 24172 --- [http-nio-8086-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.PasajeroController#pasajeros()
+2022-07-31 14:57:22.261  INFO 24172 --- [http-nio-8086-exec-7] com.edutecno.service.PasajeroServiceImp  : Ejecutando PasajeroServiceImp findAll()
+2022-07-31 14:57:22.264 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-31 14:57:22.272 DEBUG 24172 --- [http-nio-8086-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-31 14:57:22.323 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-07-31 14:57:22.323 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-07-31 14:57:22.325 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-07-31 14:57:22.325 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-31 14:57:22.325 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-31 14:57:22.325 DEBUG 24172 --- [http-nio-8086-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-07-31 14:57:22.326 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/avif, image/webp, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-07-31 14:57:22.326 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jul 31 14:57:22 CLT 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+2022-07-31 14:57:22.327 DEBUG 24172 --- [http-nio-8086-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
