@@ -1,4 +1,96 @@
-Requerimientos
+# Servicio-Control-Destinos--Spring---MVC---Thymeleaf-
+
+## Tabla de contenidos
+* [Introducción](#introducción)
+* [Tecnologías](#tecnologías)
+* [Recursos](#recursos)
+* [Screenshots](#screenshots)
+* [Requisitos](#requisitos)
+* [Status](#status)
+* [Ideas futuras](#ideas-futuras)
+* [Agradecimientos](#agradecimientos)
+* [Contacto](#contacto)
+* [Detalles de objetivos](#detalles-de-objetivos)
+
+##  Introducción
+ 
+Proyecto que relaciona el front-end y el back-end a través de una visual con acceso a base de datos. 
+
+
+##  Tecnologías
+
+Visual
+
+* Boostrap 5.1.3
+* Popper 2.10.2 
+* JQuery 3.6.0
+* font-awesome 4.4.0
+* thymeleaf
+
+Base de datos
+
+*Oracle jdbc
+
+Visual-Controlador
+
+*Maven
+*Spring jpa
+*Spring web
+*Spring devtools
+*Lombok
+
+IDE ( integrated development environment )
+
+* Visual Studio Code 1.69.2
+* Eclipse Version: 2022-06 (4.24.0)
+Extensiones Eclipse
+* Enterprise Java and Web Developer Tools 3.26
+* M2Eclipse
+* Spring Tools 4
+
+
+
+Repositorio
+
+
+##  Recursos
+
+* Fontawesome (iconos)
+* Google fonts
+
+##  Screenshots
+
+![screenshot2](https://raw.githubusercontent.com/csgutierm/PruebaViajes-csgm/main/assets/img/Screenshoot2.png)
+![screenshot](https://raw.githubusercontent.com/csgutierm/PruebaViajes-csgm/main/assets/img/Screenshoot.PNG)
+
+
+
+##  Requisitos
+
+Navegador web actualizado
+| Browser | Chrome  | Firefox  |
+| :---    | :---    | :---     |
+| Mac     |Supported| Supported|
+| Windows |Supported| Supported|
+algunas opciones no son compatibles con navegadores antiguos de Smart TVs como los de Samsung Smart TV con Tizen. 
+
+##  Status
+
+Completado pero sin revisiones 
+
+##  Ideas futuras
+
+##  Agradecimientos
+
+* Talento digital
+* Compañeros y profesores por su motivación contagiosa
+* A mí familia por su constante apoyo
+
+##  Contacto
+
+e-mail: csgutier@gmail.com
+
+## Detalle de objetivos
 1. Usar Spring Initializr para generar proyecto con las respectivas dependencias.
 (0,5 Puntos)
 2. Crear un modelo Pasajero en carpeta model, la cual debe contener anotaciones de JPA,
