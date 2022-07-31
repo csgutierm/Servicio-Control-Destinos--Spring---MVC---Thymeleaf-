@@ -33,11 +33,11 @@ Base de datos
 
 Visual-Controlador
 
-*Maven
-*Spring jpa
-*Spring web
-*Spring devtools
-*Lombok
+* Maven
+* Spring jpa
+* Spring web
+* Spring devtools
+* Lombok
 
 IDE ( integrated development environment )
 
