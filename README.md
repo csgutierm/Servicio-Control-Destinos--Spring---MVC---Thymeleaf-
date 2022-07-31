@@ -52,6 +52,9 @@ Extensiones Eclipse
 
 Repositorio
 
+* GitHub
+
+
 
 ##  Recursos
 
@@ -72,7 +75,7 @@ Navegador web actualizado
 | :---    | :---    | :---     |
 | Mac     |Supported| Supported|
 | Windows |Supported| Supported|
-algunas opciones no son compatibles con navegadores antiguos de Smart TVs como los de Samsung Smart TV con Tizen. 
+ 
 
 ##  Status
 
