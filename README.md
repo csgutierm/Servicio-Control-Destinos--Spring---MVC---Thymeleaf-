@@ -10,7 +10,7 @@
 * [Ideas futuras](#ideas-futuras)
 * [Agradecimientos](#agradecimientos)
 * [Contacto](#contacto)
-* [Detalles de objetivos](#detalles-de-objetivos)
+* [Detalle de objetivos](#detalle-de-objetivos)
 
 ##  Introducción
  
