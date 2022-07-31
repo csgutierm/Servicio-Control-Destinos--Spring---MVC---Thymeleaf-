@@ -81,7 +81,10 @@ Revisar archivo application.properties (src/main/resources) para configurar el a
 
 ##  Status
 
-Completado pero sin revisiones 
+Completado
+
+* revision
+"Hola Claudio, buen desarrollo, realiza el agregado de un nuevo pasajero y destino, permite modificar, eliminar y listar cada uno de los pasajeros y destinos; le agregaste modificaciones a la visual lo cual es bueno para practicar, sigue avanzando."
 
 ##  Ideas futuras
 
