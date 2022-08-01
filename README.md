@@ -63,8 +63,8 @@ Repositorio
 
 ##  Screenshots
 
-![screenshot2](https://raw.githubusercontent.com/csgutierm/PruebaViajes-csgm/main/assets/img/Screenshoot2.png)
-![screenshot](https://raw.githubusercontent.com/csgutierm/PruebaViajes-csgm/main/assets/img/Screenshoot.PNG)
+![screenshot2](https://raw.githubusercontent.com/csgutierm/Servicio-Control-Destinos--Spring---MVC---Thymeleaf-/main/assets/Home.png)
+![screenshot](https://raw.githubusercontent.com/csgutierm/Servicio-Control-Destinos--Spring---MVC---Thymeleaf-/main/assets/img/Screenshoot.PNG)
 
 
 
