@@ -63,7 +63,7 @@ Repositorio
 
 ##  Screenshots
 
-![screenshot2](https://raw.githubusercontent.com/csgutierm/Servicio-Control-Destinos--Spring---MVC---Thymeleaf-/main/assets/Home.PNG)
+![screenshot](https://raw.githubusercontent.com/csgutierm/Servicio-Control-Destinos--Spring---MVC---Thymeleaf-/main/assets/Home.PNG)
 ![screenshot2](https://raw.githubusercontent.com/csgutierm/Servicio-Control-Destinos--Spring---MVC---Thymeleaf-/main/assets/CrearViaje.PNG)
 
 
