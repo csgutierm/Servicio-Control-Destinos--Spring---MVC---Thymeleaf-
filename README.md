@@ -65,7 +65,7 @@ Repositorio
 Database 
 (can be edited in srx/main/resources/application.properties)
 
-#ORACLE
+#ORACLE  
 spring.datasource.driver-class-name: oracle.jdbc.OracleDriver
 spring.datasource.url: jdbc:oracle:thin:@localhost:1521:XE
 spring.datasource.username: USUARIO
