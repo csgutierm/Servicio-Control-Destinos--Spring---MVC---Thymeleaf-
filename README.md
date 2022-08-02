@@ -13,8 +13,10 @@
 * [Detalle de objetivos](#detalle-de-objetivos)
 
 ##  Introducción
- 
+
 Proyecto que relaciona el front-end y el back-end a través de una visual con acceso a base de datos. 
+
+Model and View project with Oracle database coonection and thymeleaf webpage system.
 
 
 ##  Tecnologías
@@ -33,11 +35,13 @@ Base de datos
 
 Visual-Controlador
 
+* Lombok
 * Maven
+* Spring devtools
+* Spring jdbc
 * Spring jpa
 * Spring web
-* Spring devtools
-* Lombok
+* thymeleaf
 
 IDE ( integrated development environment )
 
@@ -56,17 +60,22 @@ Repositorio
 
 
 
-##  Recursos
+##  Recursos configuración / Resources configuration
 
-* Fontawesome (iconos)
-* Google fonts
+Database 
+(can be edited in srx/main/resources/application.properties)
+
+#ORACLE
+spring.datasource.driver-class-name: oracle.jdbc.OracleDriver
+spring.datasource.url: jdbc:oracle:thin:@localhost:1521:XE
+spring.datasource.username: USUARIO
+spring.datasource.password: admin
+spring.jpa.properties.hibernate.dialect:org.hibernate.dialect.Oracle8iDialect
 
 ##  Screenshots
 
 ![screenshot](https://raw.githubusercontent.com/csgutierm/Servicio-Control-Destinos--Spring---MVC---Thymeleaf-/main/assets/Home.PNG)
 ![screenshot2](https://raw.githubusercontent.com/csgutierm/Servicio-Control-Destinos--Spring---MVC---Thymeleaf-/main/assets/CrearViaje.PNG)
-
-
 
 
 ##  Requisitos
