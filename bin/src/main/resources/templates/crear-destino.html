@@ -11,8 +11,7 @@
 	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 	crossorigin="anonymous">
 
-<title>Destinos</title>
-  <link rel="icon" type="image/x-icon" th:href="@{favicon.png}">
+<title>Crear Destino</title>
 </head>
 <body>
 
@@ -36,29 +35,44 @@
 			</div>
 		</div>
 	</nav>
-
-	<div class="container">
-				<h3>Destinos</h3>
-		<table class="table table-dark">
-			<thead>
-				<tr>
-					<th scope="col">#</th>
-					<th scope="col">CIUDAD</th>
-					<th scope="col">PAÍS</th>
-					<th scope="col">FECHA</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr th:each="destino : ${destinos}">
-					<td th:text="${destino.id}"></td>
-					<td th:text="${destino.ciudad}"></td>
-					<td th:text="${destino.pais}"></td>
-					<td th:text="${destino.fecha}"></td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
 	
+	<div class="container">
+
+		<div class="col-sm-2"></div>
+
+		<div class="col-sm-8">
+			<h3>Asignar Destino</h3>
+			<form th:action="@{/destinos/crear}" th:object="${destino}" method="post">
+			
+				<div class="mb-3">
+					<label for="ciudad" class="form-label">Ciudad</label> 
+					<input type="text" class="form-control" id="ciudad" name="ciudad">
+				</div>
+				
+				<div class="mb-3">
+					<label for="pais" class="form-label">País</label> 
+					<input type="text" class="form-control" id="pais"name="pais">
+				</div>
+			
+				<div class="mb-3">
+					<label for="fecha" class="form-label">Fecha</label> 
+					<input type="date" class="form-control" id="fecha" name="fecha">
+				</div>
+			
+
+				<div class="mb-3">
+					<label for="tipo" class="form-label">Pasajero</label>
+					<select th:field="*{pasajero}">
+                        <option th:each="pasajero : ${pasajeros}" th:value="${pasajero.id}" th:text="${pasajero.nombre}"></option>
+                    </select>
+				</div>
+			
+				<button type="submit" class="btn btn-primary">Agregar</button>
+			</form>
+		</div>
+
+		<div class="col-sm-2"></div>
+	</div>
 	<!-- footer -->
 	<footer
 		class="container-fluid text-center bg-dark text-white py-2 fixed-bottom">
